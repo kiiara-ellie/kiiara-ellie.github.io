@@ -1,0 +1,12 @@
+# GitHub Pages 설정
+plugins:
+  - jekyll-compress-html
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
